@@ -38,7 +38,7 @@ module.exports = {
       name: "product",
       filename: "remoteEntry.js",
       exposes: {
-        "./StarShips": "./src/components/StarShips",
+        "./App": "./src/App",
       },
       shared: {
         react: {
