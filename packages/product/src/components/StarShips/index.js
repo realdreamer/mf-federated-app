@@ -21,7 +21,7 @@ const GET_STAR_SHIPS = gql`
   }
 `;
 
-export default function Products() {
+export default function StarShips() {
   const { loading, error, data } = useQuery(GET_STAR_SHIPS);
 
   if (loading) return <p>Loading...</p>;
