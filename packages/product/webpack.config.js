@@ -35,10 +35,10 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "product",
+      name: "ProductMFE",
       filename: "remoteEntry.js",
       exposes: {
-        "./App": "./src/App",
+        "./StarShips": "./src/components/StarShips",
       },
       shared: {
         react: {
