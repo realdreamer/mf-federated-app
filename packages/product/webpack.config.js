@@ -11,7 +11,7 @@ module.exports = {
     static: path.join(__dirname, "dist"),
     port: 4001,
     hot: true,
-    open: true,
+    open: false,
   },
   output: {
     publicPath: "auto",
